@@ -64,6 +64,6 @@ const chatNamespace = io.of("/chat");
 chat.initChatSocket(chatNamespace);
 
 
-server.listen(1300, '0.0.0.0', () => {
-    console.log(`🚀 Server running on http://0.0.0.0:1300`);
+server.listen(1003, '0.0.0.0', () => {
+    console.log(`🚀 Server running on http://0.0.0.0:1003`);
 });
