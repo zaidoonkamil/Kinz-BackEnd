@@ -166,7 +166,7 @@ router.post("/otp/generate", upload.none(), async (req, res) => {
     });
 
     await transporter.sendMail({
-      from: `"كاك" <${process.env.EMAIL_USER}>`,
+      from: `"كنز" <${process.env.EMAIL_USER}>`,
       to: email,
       subject: "رمز التحقق OTP",
       text: `رمز التحقق الخاص بك هو: ${otp} صالح لمدة دقيقتين.`,
